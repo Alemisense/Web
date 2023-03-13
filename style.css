@@ -1,0 +1,50 @@
+body {
+    background-color: #d1e4f4;
+}
+
+img {
+    margin-left: 500px;
+}
+.geography {
+    width: 500px;
+}
+.origin {
+    width: 700px;
+}
+h1 {
+    font-family: 'Gertruda Victoriana Normal';
+    font-size: 3rem;
+    color: rgb(32, 32, 91);
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'Adana script';
+    font-size: 3rem;
+    color: hsl(272, 82%, 11%);
+}
+h3 {
+  color: blueviolet;
+}
+
+@font-face {
+	font-family: 'Gertruda Victoriana Normal';
+	src: url('fonts/gertruda_victoriana_normal.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/gertruda_victoriana_normal.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/gertruda_victoriana_normal.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/gertruda_victoriana_normal.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/gertruda_victoriana_normal.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/gertruda_victoriana_normal.svg#gertruda_victoriana_normal') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+ 
+@font-face {
+	font-family: 'Adana script';
+	src: url('fonts/adana_script.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/adana_script.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/adana_script.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/adana_script.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/adana_script.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/adana_script.svg#adana_script') format('svg'); /* Chrome < 4, Legacy iOS */
+}
